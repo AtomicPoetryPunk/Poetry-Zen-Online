@@ -70,7 +70,7 @@ The promise of a comprehensive database of your own poetry.
 
 
 
-The promise of an all-in-one workstation geared specifically for poetry. 
+The promise of an all-in-one workstation geared specifically for poetry.
 
 
 
@@ -108,7 +108,15 @@ The promise of an all-in-one workstation geared specifically for poetry.
 
 
 
-The promise of a social media platform that is made specifically for sharing poetry. Not Tumblr, Not Facebook, Not Discord. I have never, in all my years writing poetry, been satisfied with a social media experience in terms of my poetry expression needs. This is the section with the most question marks for me, and in designing for it, it was the moment where I realized I needed to bring another person into this project, so I would welcome any additional creative input as we build this.
+The promise of a social media platform that is made specifically for sharing poetry. 
+
+
+
+\-I have never, in all my years writing poetry, been satisfied with a social media experience in terms of my poetry expression needs; not Tumblr, not Facebook, not Discord. This app is sorely needed and something I have been dreaming about since I began writing poetry.
+
+
+
+\-This is the section with the most question marks for me, and in designing for it, it was the moment where I realized I needed to bring another person into this project, so I would welcome any additional creative input as we build this.
 
 
 
