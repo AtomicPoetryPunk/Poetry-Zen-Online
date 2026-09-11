@@ -2,6 +2,9 @@
 
 A place for poetry, online. **IN DEVELOPMENT**
 
-See [Design Pillars](./DESIGN%20PILLARS.md) for a guiding philosophy.
-
-...
+Current documentation:
+- [Design Pillars](./docs/DESIGN%20PILLARS.md)
+- [Data Model](./docs/data_model.md)
+- [Roadmap](./docs/roadmap.md)
+- [Feature Log](./docs/feature_log.md)
+- [Tech Choices](./docs/tech_choices.md)
