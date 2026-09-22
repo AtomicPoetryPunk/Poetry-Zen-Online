@@ -2,24 +2,24 @@
   "name": "Poetry-Zen-Online",
   "version": "1.0.0-ALPHA",
   "description": "A place for poetry, online.",
+  "type": "module",
   "scripts": {
-    "build:css": "sass --load-path=node_modules resources/scss/style.scss public/css/style.css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "poetry"
   ],
   "author": "Futuristic Plumbing LLC <garbados@gmail.com>",
-  "license": "TODO",
+  "license": "MIT",
   "packageManager": "pnpm@10.33.2",
   "devDependencies": {
-    "daisyui": "^5.7.32",
-    "express": "^5.2.1",
+    "dexie": "^4.4.6",
     "fast-check": "^4.9.0",
     "html-alchemist": "^3.3.0",
-    "mocha": "^12.0.0",
-    "sass": "^1.104.0",
     "standard": "^17.1.2",
-    "tailwindcss": "^4.3.3"
+    "vite": "^8.3.0"
   }
 }
