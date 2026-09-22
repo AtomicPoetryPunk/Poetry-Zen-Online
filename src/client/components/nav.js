@@ -5,37 +5,21 @@ export function NavBar() {
     'Workspace'
   ]
   return [
-    'nav.navbar',
+    'nav.navbar.bg-base-100.shadow-sm',
     { role: 'navigation', 'aria-label': 'main navigation' },
-    ['div.navbar-brand>a.navbar-item', 'Poetry Zen'],
     [
-      'div.navbar-menu',
+      'div.navbar-start',
+      ['a.btn.btn-ghost.text-xl', { href: '/#/' }, 'The Poetry Place'],
       [
-        'div.navbar-start',
-        [
-          'a.navbar-item',
-          { href: '/#/workspace' },
-          'Workspace'
-        ],
-        [
-          'a.navbar-item',
-          { href: '/#/archive' },
-          'Archive'
-        ],
-        [
-          'a.navbar-item',
-          { href: '/#/feed' },
-          'Social Feed'
-        ]
+        'ul.menu.menu-horizontal',
+        ['li>a', { href: '/#/workspace' }, 'Workspace'],
+        ['li>a', { href: '/#/archive' }, 'Workspace'],
+        ['li>a', { href: '/#/social' }, 'Social']
       ],
-      [
-        'div.navbar-end',
-        [
-          'a.navbar-item',
-          { href: '/#/settings' },
-          'Settings'
-        ]
-      ]
+    ],
+    [
+      'div.navbar-end>ul.menu.menu-horizontal.px-1',
+      ['li>a', { href: '/#/settings' }, 'Settings']
     ]
   ]
 }

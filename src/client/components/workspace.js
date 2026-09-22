@@ -1,9 +1,9 @@
 const SearchPoems = () => [
   'div.field',
-  title ?? ['label.label', title],
+  ['label.label', 'Search'],
   [
     'div.control>input.input', 
-    { type: 'text', placeholder, autocomplete: autocomplete ? 'on' : 'off', ...opts }
+    { type: 'text', placeholder: 'Search title and text...', autocomplete: 'on' }
   ]
 ]
 
